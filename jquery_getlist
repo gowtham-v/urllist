@@ -26,3 +26,5 @@ works
 for(let i=0; i<a.length; i++){links = links.concat(a[i].children[0].children[0].href);}
 
 finally - copy(links) and paste in excel
+
+=RIGHT(A2,LEN(A2)-5) and =LEFT(B2,LEN(B2)-2) to remove quotes and comma
