@@ -21,3 +21,6 @@ b=[]; b=b.concat(item); creates the new filtered list (if needed).
 Picking elements generates some weird error - 
 
 for(let i=0; i<a.length; i++){console.log(a[i].children[0].children[0].href);}
+works
+
+for(let i=0; i<a.length; i++){links = links.append(a[i].children[0].children[0].href);}
