@@ -24,3 +24,5 @@ for(let i=0; i<a.length; i++){console.log(a[i].children[0].children[0].href);}
 works
 
 for(let i=0; i<a.length; i++){links = links.concat(a[i].children[0].children[0].href);}
+
+finally - copy(links) and paste in excel
