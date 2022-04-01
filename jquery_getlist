@@ -22,9 +22,12 @@ Picking elements generates some weird error -
 
 for(let i=0; i<a.length; i++){console.log(a[i].children[0].children[0].href);}
 works
-
+links=[];
 for(let i=0; i<a.length; i++){links = links.concat(a[i].children[0].children[0].href);}
 
 finally - copy(links) and paste in excel
 
 =RIGHT(A2,LEN(A2)-5) and =LEFT(B2,LEN(B2)-2) to remove quotes and comma
+
+Now, the problem is that these links are in one website, but I need the link that is in the page that it opens:
+document.getElementsByClassName('xxx xflv')[0].href.
